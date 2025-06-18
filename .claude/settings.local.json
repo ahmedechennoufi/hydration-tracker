@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npx expo install:*)",
+      "Bash(npx expo start:*)",
+      "Bash(npx tsc:*)",
+      "Bash(grep:*)",
+      "Bash(timeout 10s npx expo start --no-dev --minify)",
+      "Bash(npx expo export:*)",
+      "Bash(cp:*)"
+    ],
+    "deny": []
+  }
+}
